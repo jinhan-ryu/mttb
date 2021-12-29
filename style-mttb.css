@@ -12,7 +12,7 @@ html{
 body{
     background-color: #ffffff;
     margin:0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: -0.25;
     color: #363a3c;
@@ -35,15 +35,15 @@ img{
 }
 
 #cm { position:absolute; } 
-.hc { width:260px; left:0; right:0; margin-left:auto; margin-right:auto; } /* 가로 중앙 정렬 */ 
+.hc { width:250px; left:0; right:0; margin-left:auto; margin-right:auto; } /* 가로 중앙 정렬 */ 
 .vc { height:340px; top: 0; bottom:0; margin-top:auto; margin-bottom:auto; } /* 세로 중앙 정렬 */
 
 .mttb_logo{
-    width: 200px;
+    width: 160px;
     margin-bottom: 50px;
 }
 .contents{
-    width: 260px;
+    width: 220px;
 }
 .Instagram{
     display: flex;
