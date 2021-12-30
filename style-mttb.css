@@ -10,6 +10,8 @@ html{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body{
+    height:100vh;
+    overflow: hidden;
     background-color: #111;
     margin:0;
     font-size: 16px;
@@ -43,7 +45,7 @@ img{
     width: 126px;
     height: 35px;
     left: 80px;
-    top: 80px;
+    top: 60px;
 }
 .text{
     /* we’re coming soon */
@@ -62,7 +64,7 @@ img{
     width: 136px;
     height: 65px;
     right: 80px;
-    top: 80px;
+    top: 60px;
 }
 .email{
     /* mttb@mttb.co.kr */
@@ -108,6 +110,7 @@ img{
 }
 
 @media screen and (max-width: 767px){
+    
        
         .mttb_logo{
         display: flex;
@@ -126,7 +129,7 @@ img{
         /* we’re coming soon */
         position: absolute;
         width: 255px;
-        height: 28px;
+        height: 29px;
         left: calc(50% - 255px/2);
         top: calc(50% - 100px/2);
         }
@@ -140,7 +143,7 @@ img{
         position: absolute;
         height: 65px;
         left: calc(50% - 136px/2 - 0.5px);
-        bottom: 80px;
+        bottom: 60px;
         top:inherit;
         }
     
