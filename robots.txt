@@ -1,4 +1,3 @@
 User-agent: *
-Allow: /your-javascript-url
-Allow: /your-css-url
+Allow: /
 Sitemap: http://mttb.co.kr/sitemap.xml
