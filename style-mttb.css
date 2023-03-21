@@ -68,7 +68,7 @@ section {
     width: 400px;
     height: 100px;
     left: calc(50% - 400px/2 + 0.78px);
-    top: calc(42% - 100px/2 + 2.82px);
+    top: calc(45% - 100px/2 + 2.82px);
     text-align: center;
 }
 
@@ -168,14 +168,14 @@ footer{
         width: 340px;
         height: 100px;
         left: calc(50% - 340px/2 - 0.5px);
-        bottom: 50px;
+        bottom: 40px;
         top:inherit;
         word-break: break-all;
         }
     
     .contents_mobile a{
-        margin-top: 12px;
-        padding-left: 20px;
+        margin-top: 8px;
+        padding-left: 15px;
         }
     .contents_mobile a:first-child{
         padding-left: 0px;
@@ -184,7 +184,7 @@ footer{
 
     .contents_mobile span{
         display: block;
-        margin-top: 12px;
+        margin-top: 8px;
         padding-left: 0;
         text-align: center;
         }
