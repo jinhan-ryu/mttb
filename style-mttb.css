@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 *{
     word-break: keep-all;
@@ -18,8 +19,8 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: -0.25;
-    color: #363a3c;
-    font-family: "Spoqa Han Sans","Apple SD Gothic Neo","맑은 고딕","Malgun Gothic","돋움",Dotum,Verdana,Arial,sans-serif;
+    color: #111;
+    font-family: "Noto Sans KR","Spoqa Han Sans","Apple SD Gothic Neo","맑은 고딕","Malgun Gothic","돋움",Dotum,Verdana,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     width: 100%;
 }
@@ -58,7 +59,9 @@ img{
 section {
 	padding-bottom: 70px;
 }
-
+.svg_mobile{
+    display: none;
+}
 .text{
     /* we’re coming soon */
     position: absolute;
@@ -70,7 +73,7 @@ section {
 }
 
 .text p{
-    margin-top: 10px;
+    margin-top: 6px;
 }
 
 footer{
@@ -79,7 +82,7 @@ footer{
 	bottom: 0px;
 	position: absolute;
 }
-.contents{
+.contents_pc{
     display: flex;
     width: 930px;
     margin: 0 auto;
@@ -87,15 +90,15 @@ footer{
     font-size: 14px;
 }
 
-.contents a{
+.contents_pc a{
     padding-left: 20px;
 }
 
-.contents span{
+.contents_pc span{
     padding-left: 20px;
 }
 
-.mobile {
+.contents_mobile {
     display: none;
 }
 
@@ -151,41 +154,48 @@ footer{
         height: 26px;
     }
     
-    .contents{
+    .contents_pc{
+        display: none;
+    }
+    
+    .contents_mobile{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0px;
         font-size: 11px;
         position: absolute;
-        width: 300px;
-        height: 150px;
-        left: calc(50% - 300px/2 - 0.5px);
-        bottom: 30px;
+        width: 340px;
+        height: 100px;
+        left: calc(50% - 340px/2 - 0.5px);
+        bottom: 50px;
         top:inherit;
         word-break: break-all;
         }
     
-    .contents a{
-        margin-top: 10px;
-        padding-left: 0;
+    .contents_mobile a{
+        margin-top: 12px;
+        padding-left: 20px;
+        }
+    .contents_mobile a:first-child{
+        padding-left: 0px;
         }
 
-    .contents span{
-        margin-top: 10px;
-        padding-left: 0;
-        }
-    
-    .mobile {
+
+    .contents_mobile span{
         display: block;
+        margin-top: 12px;
+        padding-left: 0;
         text-align: center;
         }
     
-    .pc {
-        display: none;
-        }
+    .links{
+        display: flex;
+    }
+    
     
     .Instagram_logo{
+        display: block;
         width: 12px;
         height: 12px;
         top: 0px;
