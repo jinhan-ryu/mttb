@@ -39,17 +39,6 @@ img{
     display: block;
 }
 
-.mttb_logo{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    width: 126px;
-    height: 35px;
-    left: 80px;
-    top: 60px;
-}
 #wrap {
     min-height: 100vh;
     position: relative;
@@ -59,9 +48,7 @@ img{
 section {
 	padding-bottom: 70px;
 }
-.svg_mobile{
-    display: none;
-}
+
 .text{
     /* we’re coming soon */
     position: absolute;
@@ -73,7 +60,7 @@ section {
 }
 
 .text p{
-    margin-top: 6px;
+    margin-top: 2px;
 }
 
 footer{
@@ -151,7 +138,7 @@ footer{
     
     .text svg{
         width: 340px;
-        height: 26px;
+        height: 24px;
     }
     
     .contents_pc{
